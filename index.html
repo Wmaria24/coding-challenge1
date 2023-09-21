@@ -8,10 +8,12 @@
 </head>
 
 <body>
+    <!-- changed div to section for better use of semantic HTML  -->
     <section class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
             <ul>
+                <nav>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -21,12 +23,13 @@
                 <li>
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
+                </nav>
             </ul>
         </div>
     </section>
 
-
-    <div class="hero"></div>
+ <!-- changed div to section for better use of semantic HTML  -->
+    <section class="hero"> </section>
     <section class="content">
         <div class="marketing-services">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
@@ -51,7 +54,8 @@
         </div>
     </section>
 
-
+ <!-- changed div to section for better use of semantic HTML  -->
+ <!-- got rid of the other class tags since the first class tag applies to all below it. -->
     <section class="benefits">
         <div class="benefit-sections">
             <h3>Lead Generation</h3>
@@ -59,15 +63,13 @@
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-sections">
+
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <img src="./assets/images/brand-awareness.png" alt />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-sections">
+
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" />
             <p>
@@ -76,13 +78,13 @@
         </div>
     </section>
 
-    
-    <div class="footer">
+    <!-- changed div tag for a footer tag instead. -->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>

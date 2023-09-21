@@ -31,10 +31,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
+/* .header div ul removed since it did not
+have a real purpose to functionality */
+/* .header div ul {
     list-style-type: none;
-}
+} */
 
 .header div ul li {
     display: inline-block;
@@ -86,7 +87,10 @@ p {
     background-color: #2589bd;
 }
 
-
+/* changed the class to benefits sections since
+multiple elements had the same css properties 
+assigned. This allowed me to get rid of 14 lines of css.
+done for lines 94-110 */
 .benefit-sections {
     margin-bottom: 32px;
     color: #ffffff;
@@ -105,7 +109,10 @@ p {
     max-width: 150px;
 }
 
-
+/* changed the class to marketing services since
+multiple elements had the same css properties 
+assigned. This allowed me to get rid of 28 lines of css.
+done for lines 115-132 */
 .marketing-services {
     margin-bottom: 20px;
     padding: 50px;
